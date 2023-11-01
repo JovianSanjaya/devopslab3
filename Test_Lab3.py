@@ -43,7 +43,7 @@ def test_bubble_sort_zero():
 
     assert (result == test_result)
 
-def test_bubble_sort_non_interger():
+def test_bubble_sort_non_integer():
     result = []
     input_array = ["sp", "is", "so","possible"]
     test_result = 2
