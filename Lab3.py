@@ -1,6 +1,4 @@
 
-
-
 print("Lab 3 - Software Unit Testing with PyTest")
 
 SORT_ASCENDING = 0
@@ -16,8 +14,9 @@ def bubble_sort(arr, sorting_order):
     n = len(arr_result)
 
     checker = 1
-    for x in range (n-1):
+    for x in range (n):
        checker *= isinstance(arr[x],int)
+
 
     if 0 < n < 10 and checker == 1:
         # Traverse through all array elements
